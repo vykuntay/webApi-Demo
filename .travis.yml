@@ -1,8 +1,4 @@
 language: csharp
-dist: trusty
-sudo: required
-mono: none
-dotnet: 3.0.102
 solution: WebApiDemo.sln
 install:
  - nuget restore WebApiDemo.sln
