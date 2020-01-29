@@ -1,4 +1,5 @@
 language: csharp
+dotnet: 3.0.0
 solution: WebApiDemo.sln
 install:
  - nuget restore WebApiDemo.sln
