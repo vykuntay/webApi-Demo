@@ -1,7 +1,8 @@
 language: csharp
-solution: "WebApiDemo.sln"
+solution: WebApiDemo.sln
 install:
-- travis_retry nuget restore -source "https://www.nuget.org/api/v2" WebApiDemo.sln
+ - nuget restore WebApiDemo.sln
+#- travis_retry nuget restore -source "https://www.nuget.org/api/v2" WebApiDemo.sln
 script:
 - xbuild WebApiDemo.sln
 
